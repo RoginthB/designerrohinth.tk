@@ -1,0 +1,354 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.center {
+    margin: auto;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.blue-gradiant {
+    background-image: radial-gradient( rgb(37, 123, 253), rgb(55, 0, 253));
+}
+
+.text-gradiant2 {
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(to right, rgb(144, 1, 240), rgb(55, 0, 253), rgb(0, 102, 255));
+}
+
+.logo-text {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+section {
+    width: 100%;
+}
+
+@keyframes mymove {
+    50% {
+        transform: translateY(12%);
+    }
+}
+
+.animation {
+    animation: mymove 3s;
+}
+
+.hoverIcon:hover {
+    -ms-transform: scale(123%);
+    /* IE 9 */
+    transform: scale(123%);
+    transition: 0.31s ease-in-out;
+}
+
+.size {
+    width: 135px;
+    height: 135px;
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.text-gradiant {
+    background-color: #f3ec78;
+    background-size: 100%;
+    background: linear-gradient(to right, #c20a60, #ff0000, #fcad03, rgb(71, 250, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.box {
+    width: 100px;
+    padding-top: 0px;
+    height: 100px;
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+}
+
+.project-box {
+    width: 313px;
+    height: 313px;
+}
+
+.skill-box {
+    display: flex;
+    width: 240px;
+    height: 80px;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 30px;
+    border-radius: 20px;
+    opacity: 30%;
+    background-image: linear-gradient(to right, #c20a60, #ff0000, #fcad03, rgb(71, 250, 0), );
+}
+
+.skill-box img {
+    width: 36px;
+    height: 36px;
+}
+
+p {
+    font-family: 'Catamaran', sans-serif;
+    font-size: 18px;
+    font-style: Regular 400;
+    margin-top: auto;
+    text-align: start;
+}
+
+.box:hover {
+    transform-origin: center;
+    transition-duration: 0.2ms;
+    transform-style: preserve-3d;
+    filter: drop-shadow(1px 1px 8px rgb(97, 97, 97));
+}
+
+.img-1 {
+    margin-left: 30px;
+}
+
+.img-2 {
+    margin-left: 120px;
+}
+
+.con {
+    position: relative;
+    text-align: center;
+}
+
+.con2 {
+    position: relative;
+    text-align: center;
+}
+
+.con2 div {
+    position: absolute;
+    text-align: left;
+    font-size: 18px;
+    top: 70%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+}
+
+.con h1 span {
+    font-size: 98px;
+    font-weight: 600;
+}
+
+.youtube-video-size {
+    width: 560px;
+    height: 315px;
+}
+
+.flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    perspective: 1000px;
+}
+
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.flip-card-front {
+    background-color: #bbb;
+    color: black;
+}
+
+.flip-card-back {
+    background-color: #2980b9;
+    color: white;
+    transform: rotateY(180deg);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.size-of-3d {
+    width: 100%;
+    height: 600px;
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+}
+
+.drop-shadow {
+    filter: drop-shadow( 1px 1px 6px rgba(118, 155, 190, 0.623));
+}
+
+.flex {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+}
+
+.flex1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.skills-flex {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+}
+
+.flex-space {
+    justify-content: space-between;
+}
+
+.corner {
+    border-radius: 20px;
+}
+
+.re-text {
+    line-height: 15px;
+    text-align: center;
+}
+
+.position {
+    position: fixed;
+    width: 25%;
+}
+
+.padding-top {
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+.font-size-12 {
+    font-size: 12px;
+    text-align: center;
+}
+
+.gallery {
+    margin-left: 25%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    width: 270px;
+    border-radius: 30px;
+}
+
+.card:hover {
+    width: 270px;
+    filter: drop-shadow(1px 1px 8px rgb(97, 97, 97));
+}
+
+.pp-size {
+    font-size: 14px;
+}
+
+.welcome-text {
+    font-weight: 700;
+}
+
+.popups {
+    position: relative;
+    width: 100%;
+    display: block;
+    border-radius: 20%;
+    top: 0;
+    left: 0;
+    transform: translate(-50%, -50%);
+    background-color: cornsilk;
+}
+
+.popups img {
+    position: relative;
+    width: 100%;
+}
+
+.text-align-justify {
+    text-align: justify;
+    font-size: 24px;
+    font-weight: 340;
+}
+
+@media screen and (max-width: 768px) {
+    .youtube-video-size {
+        width: 280px;
+        height: 157.5px;
+    }
+    .skill-box {
+        display: flex;
+        width: 85px;
+        height: 85px;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 30px;
+        border-radius: 20px;
+        animation: none;
+        opacity: 30%;
+        background-image: linear-gradient(to right, #c20a60, #ff0000, #fcad03, rgb(71, 250, 0), );
+    }
+    .skill-box p {
+        display: none
+    }
+    .welcome-text {
+        font-weight: 600;
+        font-size: 32px;
+    }
+    .project-box {
+        width: 240px;
+        height: 240px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .con h1 span {
+        font-size: 58px;
+        font-weight: 600;
+    }
+    .youtube-video-size {
+        width: 280px;
+        height: 157.5px;
+    }
+}
